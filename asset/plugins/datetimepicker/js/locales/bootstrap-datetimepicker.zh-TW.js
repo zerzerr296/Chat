@@ -1,7 +1,4 @@
-/**
- * Traditional Chinese translation for bootstrap-datetimepicker
- * Rung-Sheng Jang <daniel@i-trend.co.cc>
- */
+
 ;(function($){
 	$.fn.datetimepicker.dates['zh-TW'] = {
 	days: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"],

@@ -1,5 +1,5 @@
 /**
-* @Auth:ShenZ
+* @Auth:Meizi
 * @Description:
 * @CreateDate:2022/06/15 16:37:35
  */
@@ -67,7 +67,7 @@ const (
 	PublishKey = "websocket"
 )
 
-//Publish 发布消息到Redis
+// Publish 发布消息到Redis
 func Publish(ctx context.Context, channel string, msg string) error {
 	var err error
 	fmt.Println("Publish 。。。。", msg)
@@ -78,7 +78,7 @@ func Publish(ctx context.Context, channel string, msg string) error {
 	return err
 }
 
-//Subscribe 订阅Redis消息
+// Subscribe 订阅Redis消息
 func Subscribe(ctx context.Context, channel string) (string, error) {
 	sub := Red.Subscribe(ctx, channel)
 	fmt.Println("Subscribe 。。。。", ctx)

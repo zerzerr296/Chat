@@ -1,5 +1,5 @@
 /**
-* @Auth:ShenZ
+* @Auth:Meizi
 * @Description:
 * @CreateDate:2022/06/15 14:57:12
  */
@@ -198,7 +198,7 @@ func UpdateUser(c *gin.Context) {
 
 }
 
-//防止跨域站点伪造请求
+// 防止跨域站点伪造请求
 var upGrader = websocket.Upgrader{
 	CheckOrigin: func(r *http.Request) bool {
 		return true
@@ -237,7 +237,7 @@ func MsgHandler(c *gin.Context, ws *websocket.Conn) {
 			fmt.Println(" MsgHandler 发送失败", err)
 		}
 
-		tm := time.Now().Format("2006-01-02 15:04:05")
+		tm := time.Now().Format("2024-01-02 15:04:05")
 		m := fmt.Sprintf("[ws][%s]:%s", tm, msg)
 		err = ws.WriteMessage(1, []byte(m))
 		if err != nil {
@@ -272,7 +272,7 @@ func AddFriend(c *gin.Context) {
 	}
 }
 
-//新建群
+// 新建群
 func CreateCommunity(c *gin.Context) {
 	ownerId, _ := strconv.Atoi(c.Request.FormValue("ownerId"))
 	name := c.Request.FormValue("name")
@@ -291,7 +291,7 @@ func CreateCommunity(c *gin.Context) {
 	}
 }
 
-//加载群列表
+// 加载群列表
 func LoadCommunity(c *gin.Context) {
 	ownerId, _ := strconv.Atoi(c.Request.FormValue("ownerId"))
 	//	name := c.Request.FormValue("name")
@@ -303,7 +303,7 @@ func LoadCommunity(c *gin.Context) {
 	}
 }
 
-//加入群 userId uint, comId uint
+// 加入群 userId uint, comId uint
 func JoinGroups(c *gin.Context) {
 	userId, _ := strconv.Atoi(c.Request.FormValue("userId"))
 	comId := c.Request.FormValue("comId")

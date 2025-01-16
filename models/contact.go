@@ -1,5 +1,5 @@
 /**
-* @Auth:ShenZ
+* @Auth:Meizi
 * @Description:
 * @CreateDate:2022/06/15 14:57:55
  */
@@ -11,7 +11,7 @@ import (
 	"gorm.io/gorm"
 )
 
-//人员关系
+// 人员关系
 type Contact struct {
 	gorm.Model
 	OwnerId  uint //谁的关系信息
@@ -36,7 +36,7 @@ func SearchFriend(userId uint) []UserBasic {
 	return users
 }
 
-//添加好友   自己的ID  ， 好友的ID
+// 添加好友   自己的ID  ， 好友的ID
 func AddFriend(userId uint, targetName string) (int, string) {
 	//user := UserBasic{}
 

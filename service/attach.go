@@ -1,5 +1,5 @@
 /**
-* @Auth:ShenZ
+* @Auth:Meizi
 * @Description:
 * @CreateDate:2022/06/15 12:57:55
  */
@@ -24,7 +24,7 @@ func Upload(c *gin.Context) {
 	//UploadOOS(c)
 }
 
-//上传文件到本地
+// 上传文件到本地
 func UploadLocal(c *gin.Context) {
 	w := c.Writer
 	req := c.Request
@@ -51,7 +51,7 @@ func UploadLocal(c *gin.Context) {
 	utils.RespOK(w, url, "发送图片成功")
 }
 
-//上传文件到阿里云服务
+// 上传文件到阿里云服务
 func UploadOOS(c *gin.Context) {
 	w := c.Writer
 	req := c.Request

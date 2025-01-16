@@ -1,5 +1,5 @@
 /**
-* @Auth:ShenZ
+* @Auth:Meizi
 * @Description:
 * @CreateDate:2022/06/15 14:57:55
  */
@@ -78,7 +78,7 @@ func UpdateUser(user UserBasic) *gorm.DB {
 	return utils.DB.Model(&user).Updates(UserBasic{Name: user.Name, PassWord: user.PassWord, Phone: user.Phone, Email: user.Email, Avatar: user.Avatar})
 }
 
-//查找某个用户
+// 查找某个用户
 func FindByID(id uint) UserBasic {
 	user := UserBasic{}
 	utils.DB.Where("id = ?", id).First(&user)

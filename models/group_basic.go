@@ -1,5 +1,5 @@
 /**
-* @Auth:ShenZ
+* @Auth:Meizi
 * @Description:
 * @CreateDate:2022/06/15 14:57:55
  */
@@ -7,7 +7,7 @@ package models
 
 import "gorm.io/gorm"
 
-//群信息
+// 群信息
 type GroupBasic struct {
 	gorm.Model
 	Name    string

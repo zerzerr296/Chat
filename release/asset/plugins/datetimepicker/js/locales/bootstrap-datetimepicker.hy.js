@@ -1,7 +1,4 @@
-/**
- * Armenian translation for bootstrap-datepicker
- * Hayk Chamyan <hamshen@gmail.com>
- */
+
 ;(function($){
 	$.fn.datetimepicker.dates['hy'] = {
 		days: ["Կիրակի", "Երկուշաբթի", "Երեքշաբթի", "Չորեքշաբթի", "Հինգշաբթի", "Ուրբաթ", "Շաբաթ", "Կիրակի"],

@@ -1,7 +1,4 @@
-/**
- * Bootstrap Table Afrikaans translation
- * Author: Phillip Kruger <phillip.kruger@gmail.com>
- */
+
 (function ($) {
     'use strict';
 
@@ -39,10 +36,7 @@
 
 })(jQuery);
 
-/**
- * Bootstrap Table English translation
- * Author: Zhixin Wen<wenzhixin2010@gmail.com>
- */
+
 (function ($) {
     'use strict';
 
@@ -80,11 +74,7 @@
 
 })(jQuery);
 
-/**
- * Bootstrap Table Catalan translation
- * Authors: Marc Pina<iwalkalone69@gmail.com>
- *          Claudi Martinez<claudix.kernel@gmail.com>
- */
+
 (function ($) {
     'use strict';
 
@@ -125,11 +115,7 @@
 
 })(jQuery);
 
-/**
- * Bootstrap Table Czech translation
- * Author: Lukas Kral (monarcha@seznam.cz)
- * Author: Jakub Svestka <svestka1999@gmail.com>
- */
+
 (function ($) {
     'use strict';
 
@@ -280,10 +266,7 @@
 
 })(jQuery);
 
-/**
- * Bootstrap Table English translation
- * Author: Zhixin Wen<wenzhixin2010@gmail.com>
- */
+
 (function ($) {
     'use strict';
 
@@ -330,10 +313,7 @@
 
 })(jQuery);
 
-/**
- * Bootstrap Table Spanish (Argentina) translation
- * Author: Felix Vera (felix.vera@gmail.com)
- */
+
 (function ($) {
     'use strict';
 
@@ -361,11 +341,7 @@
     $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['es-AR']);
 
 })(jQuery);
-/**
- * Traducción de librería Bootstrap Table a Español (Chile)
- * @author Brian Álvarez Azócar
- * email brianalvarezazocar@gmail.com
- */
+
 (function($) {
   'use strict';
 
@@ -447,10 +423,7 @@
 
 })(jQuery);
 
-/**
- * Bootstrap Table Spanish Spain translation
- * Author: Marc Pina<iwalkalone69@gmail.com>
- */
+
 (function ($) {
     'use strict';
 
@@ -491,11 +464,7 @@
 
 })(jQuery);
 
-/**
- * Bootstrap Table Spanish (México) translation (Obtenido de traducción de Argentina)
- * Author: Felix Vera (felix.vera@gmail.com) 
- * Copiado: Mauricio Vera (mauricioa.vera@gmail.com)
- */
+
 (function ($) {
     'use strict';
 
@@ -565,10 +534,7 @@
 
 })(jQuery);
 
-/**
- * Bootstrap Table Spanish (España) translation
- * Author: Antonio Pérez <anpegar@gmail.com>
- */
+
  (function ($) {
     'use strict';
     
@@ -648,10 +614,7 @@
     $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['et-EE']);
 
 })(jQuery);
-/**
- * Bootstrap Table Persian translation
- * Author: MJ Vakili <mjv.1989@Gmail.com>
- */
+
 (function ($) {
     'use strict';
 
